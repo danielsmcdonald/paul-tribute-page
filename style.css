@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Streamster";
+  src: url(fonts/Streamster.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  background-color: #03051c;
+}
+
+h1 {
+  font-size: 80px;
+  color: #e60073;
+  text-align: center;
+  font-family: "Streamster";
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073,
+    0 0 50px #e60073, 0 0 60px, 0 0 70px #e60073;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  margin-top: 60px;
+  text-shadow: 0 0 10px #fff, 0 0 20px #d7e600;
+}
+
+figcaption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #f8d617dc;
+  text-align: center;
+  margin: auto;
+}
+
+img {
+  margin: 100px auto;
+  max-width: 100%;
+  min-height: 300px;
+  display: block;
+  border-radius: 35px;
+  border: 3px solid #58d3ae;
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #58d3ae, 0 0 40px #58d3ae,
+    0 0 50px #58d3ae, 0 0 60px, 0 0 70px #58d3ae;
+}
+
+h2 {
+  margin: 25px 50px 30px 50px;
+  color: rgb(235, 235, 235);
+  font-size: 30px;
+}
+
+ul {
+  max-width: 500px;
+  margin: auto;
+  color: violet;
+}
+
+li {
+  margin: 15px;
+}
+
+h3 {
+  color: #d7e600;
+}
